@@ -1,0 +1,104 @@
+#de1{
+	font-weight:700;
+	font-size:30px;
+	text-align: center;
+	color:#00bcd4;
+	width: 750px;
+	height: 60px;
+	background-color: #f3f3f3;
+	border: 2px solid gray;
+	border-bottom: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index:5;
+}
+
+#vien1{
+	width: 750px;
+	height: 1050px;
+	background:#f3f3f3;
+	border: 2px solid gray;
+	border-top: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index:0;
+}
+
+#vien2{
+	color: #134f5c;
+	width: 645px;
+	height: 230px;
+	background: #f3f3f3;
+	text-indent: 50px;
+	font-size: 25px #f3f3f3;
+	border: 2px solid gray;
+	border-radius:10px;
+	box-shadow: 5px 10px 10px #ccc;
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	z-index:5;
+}
+
+#textmail{
+	color: white;
+	text-align: center;
+	font-weight:700;
+	font-size:25px;
+	width: 640px;
+	height: 100px;
+	background:#00bcd4;
+	border: solid black 2px;
+	border-radius:10px 10px 60px 90px; 
+	box-shadow: 2px 5px 2px #ccc;
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+	z-index:7;
+}
+
+#khunggmail{
+	width: 350px;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	left: 140px;
+	z-index:7;
+}
+
+#textchon{
+	font-weight:300;
+	font-size:22px;
+	position: absolute;
+	top: 110px;
+	left: 235px;
+	z-index:7;
+}
+
+#Tuy_chon_canh_bao{
+	width: 250px;
+	height: 30px;
+	position: absolute;
+	top: 140px;
+	left: 195px;
+	z-index:7;
+}
+
+#ENROLLMAIL{
+	font-weight:700;
+	font-size:15px;
+	text-align: right;
+	color: red;
+	width: 480px;
+	height: 20px;
+	border: none black 2px;
+	position: absolute;
+	top: 200px;
+	left: 150px; 
+	z-index:7;
+}
+
+
+

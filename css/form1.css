@@ -1,0 +1,120 @@
+#vien3{
+	color: #134f5c;
+	width: 645px;
+	height: 530px;
+	background:#f3f3f3;
+	border: 2px solid gray;
+	border-radius:10px;
+	box-shadow: 5px 10px 10px #ccc;
+	position: absolute;
+	top: 340px;
+	left: 60px;
+	z-index:8;
+}
+
+#nguong{
+	color: white;
+	text-align: center;
+	font-weight:700;
+	font-size:25px;
+	width: 640px;
+	height: 100px;
+	background:#00bcd4;
+	border: solid black 2px;
+	border-radius:10px 10px 60px 90px; 
+	box-shadow: 2px 5px 2px #ccc;
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+	z-index:7;
+}
+
+#THONGSO{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	top: 40px;
+	left: 240px;
+	z-index:8;
+}
+
+#khungmm{
+	font-weight:700;
+	font-size:20px;
+	width: 500px;
+	height: 120px;
+	border: none black 2px;
+	position: absolute;
+	top: 160px;
+	left: 90px; 
+	z-index:7;
+}
+#tmin{
+	width: 250px;
+	height: 30px;
+}
+#tmax{
+	width: 250px;
+	height: 30px;
+}
+
+#kiennghi{
+	font-weight:700;
+	font-size:15px;
+	width: 500px;
+	height: 320px;
+	border: none black 2px;
+	position: absolute;
+	top: 360px;
+	left: 90px; 
+	z-index:7;
+}
+
+#ENROLL{
+	font-weight:700;
+	font-size:15px;
+	text-align: right;
+	color: red;
+	width: 480px;
+	height: 20px;
+	border: none black 2px;
+	position: absolute;
+	top: 500px;
+	left: 150px; 
+	z-index:7;
+}
+
+#ss-submit{
+	font-weight:700;
+	font-size:20px;
+	text-align:center;
+	width: 70px;
+	height: 40px;
+	transition:1s;
+	box-shadow: 2px 5px 2px #ccc;
+	position: absolute;
+	top: 900px;
+	left: 350px;
+	z-index:10;
+}
+#ss-submit:hover{
+	font-weight:150;
+	font-size:25px;
+	text-align: center;
+
+	width: 90px;
+	height: 45px;
+	box-shadow: 2px 5px 2px #ccc;
+	background: lightblue;
+}
+
+#test{
+            background-image: url('./maybay3.png');
+		background-size:80px 42px;
+            width:80px;
+            height:42px;
+            position:relative;
+		top: 5px;
+		left: 500px;
+		z-index:6;
+}

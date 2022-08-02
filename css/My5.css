@@ -1,0 +1,58 @@
+
+#khung5{
+	text-align: center;
+	font-weight:700;
+	font-size:25px;
+	color:white;
+	width: 280px;
+	height: 40px;
+	background:#00bcd4;
+	border: solid black 2px;
+	border-radius:10px;
+	box-shadow: 2px 5px 2px #ccc;
+	position: absolute;
+	top: 740px;
+	left: 820px; 
+	z-index:5;
+}
+
+#min5{
+	color: #00838f;
+	position: absolute;
+	top: 50px;
+	left: 45px; 
+	z-index:5
+}
+
+#max5{
+	color: #00838f;
+	position: absolute;
+	top: 50px;
+	left: 195px; 
+	z-index:5
+}
+
+
+#o9{
+	color: black;
+	width: 100px;
+	height: 40px;
+	background:#f3f3f3;
+	border: solid black 2px;
+	position: absolute;
+	top: 80px;
+	left: 10px; 
+	z-index:5;
+}
+
+#o10{
+	color: black;
+	width: 100px;
+	height: 40px;
+	background:#f3f3f3;
+	border: solid black 2px;
+	position: absolute;
+	top: 80px;
+	left: 170px; 
+	z-index:5;
+}

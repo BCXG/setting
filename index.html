@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> CÀI ĐẶT THÔNG SỐ VÙNG NUÔI </title>
+	<link rel="stylesheet" type="text/css" href="./css/My1.css" />
+	<link rel="stylesheet" type="text/css" href="./css/My2.css" />
+	<link rel="stylesheet" type="text/css" href="./css/My3.css" />
+	<link rel="stylesheet" type="text/css" href="./css/My4.css" />
+	<link rel="stylesheet" type="text/css" href="./css/My5.css" />
+	<link rel="stylesheet" type="text/css" href="./css/My6.css" />
+	<link rel="stylesheet" type="text/css" href="./css/form.css" />
+	<link rel="stylesheet" type="text/css" href="./css/form1.css" />
+</head>
+
+<body onload="Loaddata()">
+    
+    <script type="text/javascript" src="./js/javascript.js"></script>
+    <script type="text/javascript" src="./js/sentdata.js"></script>
+
+    <div id="de2"> 
+        THÔNG SỐ ĐÃ CÀI ĐẶT
+    </div>
+
+    <div id="bo1"></div>
+    
+    <div id="vien1"></div>
+
+    <div id="khung1"> NHIỆT ĐỘ
+    	<div id="min1">Min</div>
+    	
+    	<div id="o1"></div>
+    
+    	<div id="max1">Max</div>
+    
+    	<div id="o2"></div>
+    </div>
+
+    <div id="khung2"> ĐỘ ẨM
+    	<div id="min2">Min</div>
+    	
+    	<div id="o3"></div>
+    
+    	<div id="max2">Max</div>
+    
+    	<div id="o4"></div>
+    </div>
+
+    <div id="khung3"> ĐỘ pH
+    	<div id="min3">Min</div>
+    	
+    	<div id="o5"></div>
+    
+    	<div id="max3">Max</div>
+    
+    	<div id="o6"></div>
+    </div>
+
+    <div id="khung4"> ĐỘ DẪN ĐIỆN
+    	<div id="min4">Min</div>
+    	
+    	<div id="o7"></div>
+    
+    	<div id="max4">Max</div>
+    
+    	<div id="o8"></div>
+    </div>
+
+    <div id="khung5"> ĐỘ ĐỤC 
+    	<div id="min5">Min</div>
+    	
+    	<div id="o9"></div>
+    
+    	<div id="max5">Max</div>
+    
+    	<div id="o10"></div>
+    </div>
+
+    <div id="khung6"> NỒNG ĐỘ OXY
+    	<div id="min6">Min</div>
+    	
+    	<div id="o11"></div>
+    
+    	<div id="max6">Max</div>
+    
+    	<div id="o12"></div>
+    </div>
+
+    <div id="de1"> FORM CÀI ĐẶT </div>
+
+    <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted){}" style="display: none;"></iframe>
+    <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted){window.location='thongbao.html';}" style="display: none;"></iframe>
+    <form onsubmit="submitted=true;"  target="hidden_iframe" class="text-left"  role="form" id="ss-form" method="GET" action="https://script.google.com/macros/s/AKfycbzs9XmdbVDx11xl2b-BmOvcEU1YJWhJ4QlFLjACI6Z27AQb_GrdpjhBN0j4N4Pt4WiKKg/exec" iflame>
+
+        <div id="vien2">
+        
+            <div id="textmail" >Nhập mail để nhận cảnh báo </div>
+        
+            <input id="khunggmail" type="text" name="Gmail" placeholder="Bắt buộc nhập gmail" required/>
+        
+           <div id="textchon"> Tùy chọn gửi mail </div>
+        
+            <div id="ENROLLMAIL"></div>
+        
+           <select id="Tuy_chon_canh_bao" name="Tuy_chon_canh_bao">
+        	<option value="Luôn luôn gửi mail">Luôn luôn gửi mail</option>
+        	<option value="Không gửi vào ban đêm (22h-7h)">Không gửi vào ban đêm (22h-7h)</option>
+        	<option value="Tắt (không gửi cảnh báo)">Tắt (không gửi cảnh báo)</option> 
+          </select>
+        </div>
+ 
+        <div id="vien3">
+            <div id="nguong">Chọn thông số cần thay đổi mức ngưỡng</div>
+            
+            <select id="THONGSO" name="DAI_LUONG">
+            <option value="Nhiệt độ">NHIỆT ĐỘ</option>
+            <option value="Độ ẩm">ĐỘ ẨM</option>
+            <option value="Độ PH">ĐỘ pH</option>
+            <option value="Độ dẫn điện">ĐỘ DẪN ĐIỆN</option>
+            <option value="Độ đục">ĐỘ ĐỤC</option>
+            <option value="Nồng độ oxi">NỒNG ĐỘ OXY</option>
+            </select>
+            
+            <div id="khungmm">
+                <p>
+                Min: 
+                    <input lang="en-US" id="tmin" type="number" name="MIN" placeholder="MIN" step="0.01" required/>
+                 ví dụ: "Min: 30.5"
+                 </p>
+                <br/>
+                <P>Max:
+                   <input lang="en-US" id="tmax" type="number" name="MAX" placeholder="MAX" step="0.01" required/>
+                   ví dụ: "Max: 90.7"
+                </p>
+                <p> <b><u>LƯU Ý:</u> </b><b>NHẬP SỐ THẬP PHÂN DÙNG DẤU CHẤM "." </b></p>
+            </div>
+            <div id="kiennghi">
+            <p>
+            GIÁ TRỊ ĐẶT KIẾN NGHỊ<br/>
+            - Nhiệt độ: 20 - 40 độ C<br/>
+            - Độ ẩm: 60 - 100 %<br/>
+            - pH: 6 - 9 <br/>
+            - Độ dẫn điện: 3.400 - 6.500 uS/cm (tùy vùng nuôi)<br/>
+            - Độ đục: 25 - 80 NTU<br/>
+            - Nồng độ oxy: 4,5 - 7 mg/l<br/>
+            </p>
+            </div>
+            <div id="ENROLL"></div>
+        
+        </div>
+
+       <input id="ss-submit" value="Gửi" name="submit" type="submit" onclick="Sentdata(),Loaddata()">
+       <div id="test"></div>
+
+    </form>
+    
+</body>
+</html>
