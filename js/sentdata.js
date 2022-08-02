@@ -5,8 +5,25 @@ function Sentdata()
   var DataMax=document.getElementById("tmax").value;
   var thso=document.getElementById("THONGSO").value;
 
+if(Datagmail==""){
+document.getElementById("ENROLLMAIL").innerHTML="Bạn chưa nhập mail. VUI LÒNG NHẬP MAIL" ;
+}
 
-if(Number(DataMin) > Number(DataMax)){
+else{
+document.getElementById("ENROLLMAIL").innerHTML="";
+}
+
+if (DataMin==""){
+document.getElementById("ENROLL").innerHTML="Bạn chưa nhập giá trị. VUI LÒNG NHẬP LẠI" ;
+document.getElementById("ENROLL").style.color="red";
+}
+
+else if (DataMax==""){
+document.getElementById("ENROLL").innerHTML="Bạn chưa nhập giá trị. VUI LÒNG NHẬP LẠI" ;
+document.getElementById("ENROLL").style.color="red";
+}
+
+else if(Number(DataMin) > Number(DataMax)){
 document.getElementById("ENROLL").innerHTML="Giá trị đã nhập MIN > MAX. VUI LÒNG NHẬP LẠI" ;
 document.getElementById("ENROLL").style.color="red";
 }
