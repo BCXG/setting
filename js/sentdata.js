@@ -68,5 +68,6 @@ localStorage.setItem("oxymin",DataMin);
 localStorage.setItem("oxymax",DataMax);
 }
 
+  
 }
 }
